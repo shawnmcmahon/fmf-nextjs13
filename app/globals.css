@@ -11,10 +11,6 @@ body {
 }
 
 
-* {
-  box-sizing: border-box;
-  boder: 2px solid red;
-}
 
 @media (prefers-color-scheme: dark) {
 

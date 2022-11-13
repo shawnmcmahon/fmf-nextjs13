@@ -2,13 +2,11 @@ import Nav from './components/nav'
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="">
+    <div className="border-4 border-red-700 bg-[#111827] w-100 h-screen min-h-full flex flex-col">
       <Nav />
-          <h1 className="text-8xl">
-            Hello
+          <h1 className="">
+            FMF
           </h1>
-      </main>
     </div>
     )
 }
