@@ -4,6 +4,9 @@ module.exports = {
   "./pages/**/*.{js,ts,jsx,tsx}",
   "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    colors:{
+      primary: 'rgb(17,24,39)'
+    },
     extend: {},
   },
   plugins: [],
