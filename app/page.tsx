@@ -1,4 +1,6 @@
 import Nav from './components/nav'
+import addCircle from '../assets/images/addCircle.png'
+import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -12,6 +14,16 @@ const Home = () => {
             <p className="mx-auto mt-8 max-w-2xl text-xl font-medium text-white text-center">Create quick, sharable routes with anyone using Google Maps.</p>
             <p className="mx-auto mt-0 max-w-2xl text-xl font-medium text-white text-center">Step-by-step maps to help you get found no matter where you are.  </p>
           </div>
+        </div>
+        <div className="flex flex-col-reverse  place-items-center">
+          <Image 
+            className=""
+            src={addCircle}
+            alt="Add Circle"
+            width={35}
+            height={35}
+          />
+          <p className="order-first bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text font-medium tracking-wide text-transparent text-center">Add Route</p>
         </div>
       </section>
     </div>
