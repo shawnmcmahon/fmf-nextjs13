@@ -4,7 +4,6 @@ import Link from 'next/link'
 const create = () => {
   return (
     <div className=" bg-[#F0F9FD] w-100 h-screen min-h-full flex flex-col">
-      <Nav />
       <section className="w-100 h-full">
         <div className="">
           <div className="flex flex-col justify-center place-items-center mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
