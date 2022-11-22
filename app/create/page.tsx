@@ -1,6 +1,7 @@
 import Nav from '../components/nav'
 import Link from 'next/link'
 
+
 const create = () => {
   return (
     <div className=" bg-[#F0F9FD] w-100 h-screen min-h-full flex flex-col">
