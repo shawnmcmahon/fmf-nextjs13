@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Script from 'next/script'
+import '../output.css'
 
 export default function page() {
   return (
