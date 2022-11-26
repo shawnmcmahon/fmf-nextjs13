@@ -3,11 +3,11 @@ import Image from 'next/image'
 import Script from 'next/script'
 import location from '../assets/images/location.png'
 import google from '../assets/images/google.png'
+import logo from '../assets/images/logo1.png'
 import '../output.css'
 
 export default function page() {
   return (
-  <div>
   <div>
       {/* <header className="fixed w-full">
           <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
@@ -169,44 +169,44 @@ export default function page() {
                   </div>
               </div>
 
-              <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+               {/* <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                   <Image className="hidden mb-4 rounded-lg lg:mb-0 lg:flex" src="/../../assets/images/feature-2.png" alt="feature image 2" width={250} height={250} />
                   <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                       <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">We invest in the world’s potential</h2>
                       <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-                      {/* <!-- List --> */}
+         
                       <ul role="list" className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                           <li className="flex space-x-3">
-                              {/* <!-- Icon --> */}
+                     
                               <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                               <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Dynamic reports and dashboards</span>
                           </li>
                           <li className="flex space-x-3">
-                              {/* <!-- Icon --> */}
+                     
                               <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                               <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Templates for everyone</span>
                           </li>
                           <li className="flex space-x-3">
-                              {/* <!-- Icon --> */}
+                     
                               <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                               <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Development workflow</span>
                           </li>
                           <li className="flex space-x-3">
-                              {/* <!-- Icon --> */}
+                     
                               <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                               <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Limitless business automation</span>
                           </li>
                           <li className="flex space-x-3">
-                              {/* <!-- Icon --> */}
+                     
                               <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                               <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge management</span>
                           </li>
                       </ul>
                       <p className="font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
                   </div>
-              </div>
-          </div>
-        </section>
+              </div>  */}
+          </div> 
+        </section> 
 
       <section className="bg-white dark:bg-gray-900">
           <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
@@ -232,23 +232,23 @@ export default function page() {
               <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                   <div>
                       <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clipRule="evenodd"></path></svg>
-                      <h3 className="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
-                      <p className="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime</p>
+                      <h3 className="mb-2 text-2xl font-bold dark:text-white">∞ routes</h3>
+                      <p className="font-light text-gray-500 dark:text-gray-400">With Pro, no limit on Routes</p>
                   </div>
                   <div>
                       <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path></svg>
-                      <h3 className="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
-                      <p className="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the world</p>
+                      <h3 className="mb-2 text-2xl font-bold dark:text-white">0 hassel</h3>
+                      <p className="font-light text-gray-500 dark:text-gray-400">For everyone, no sign up required to view maps</p>
                   </div>
                   <div>
                       <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clipRule="evenodd"></path></svg>
-                      <h3 className="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
-                      <p className="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional websites</p>
+                      <h3 className="mb-2 text-2xl font-bold dark:text-white">104+ countries</h3>
+                      <p className="font-light text-gray-500 dark:text-gray-400">Support Google Maps</p>
                   </div>
                   <div>
                       <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
-                      <h3 className="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
-                      <p className="font-light text-gray-500 dark:text-gray-400">Transactions per day</p>
+                      <h3 className="mb-2 text-2xl font-bold dark:text-white">0 dollars</h3>
+                      <p className="font-light text-gray-500 dark:text-gray-400">Required at checkout to start your 30 free trial</p>
                   </div>
               </div>
           </div>
@@ -568,10 +568,10 @@ export default function page() {
               {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"> */}
               <div className="text-center">
                   <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                      <Image src="/../../assets/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" width={250} height={250}  />
-                      Landwind    
+                      <Image src={logo} className="h-6 max-w-max mr-3 sm:h-9" alt="Find Me Fast Logo" width={250} height={250}  />
+                      Find Me Fast
                   </a>
-                  <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                  <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© {new Date().getFullYear()}  Find Me Fast. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
                   </span>
                   <ul className="flex justify-center mt-5 space-x-5">
                       <li>
@@ -590,21 +590,14 @@ export default function page() {
                           </a>
                       </li>
                       <li>
-                          <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                          <a href="https://github.com/shawnmcmahon/fmf-nextjs13" className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
                               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" /></svg>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
-                              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clipRule="evenodd" /></svg>
                           </a>
                       </li>
                   </ul>
               </div>
           </div>
       </footer>
-
-      </div>
     </div>
   )
 }
