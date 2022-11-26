@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Script from 'next/script'
 import location from '../assets/images/location.png'
+import google from '../assets/images/google.png'
 import '../output.css'
 
 export default function page() {
@@ -69,12 +70,12 @@ export default function page() {
                   </div> */}
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                  <Image src={location} alt="hero image" width={250} height={250}  />
+                  <Image src={location} alt="location image" width={400} height={400}  />
               </div>                
           </div>
       </section>
-
-      <section className="bg-white dark:bg-gray-900">
+                  {/* Social Proof section */}
+      {/* <section className="bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
               <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                   <a href="#" className="flex items-center lg:justify-center">
@@ -134,7 +135,7 @@ export default function page() {
                   </a>
               </div>
           </div>
-      </section>
+      </section> */}
 
       <section className="bg-gray-50 dark:bg-gray-800">
           <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
@@ -163,11 +164,13 @@ export default function page() {
                       </ul>
                       <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
                   </div>
-                  <Image className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="/../../assets/images/feature-1.png" alt="dashboard feature image" width={250} height={250} />
+                  <div className="flex justify-center">
+                    <Image className="hidden max-w-max mb-4 rounded-lg lg:mb-0 lg:flex" src={google} alt="dashboard feature image" width={250} height={250} />
+                  </div>
               </div>
 
               <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                  <Image className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="/../../assets/images/feature-2.png" alt="feature image 2" width={250} height={250} />
+                  <Image className="hidden mb-4 rounded-lg lg:mb-0 lg:flex" src="/../../assets/images/feature-2.png" alt="feature image 2" width={250} height={250} />
                   <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                       <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">We invest in the world’s potential</h2>
                       <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
