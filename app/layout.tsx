@@ -1,5 +1,6 @@
 import './globals.css';
 import Nav from './components/Nav'
+import Script from 'next/script'
 
 export default function RootLayout({
   children,
