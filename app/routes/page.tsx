@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../components/nav'
+import Nav from '../components/oldNav'
 
 async function getRoutes() {
   const res = await fetch('http://127.0.0.1:8090/api/collections/routes/records?page=1&perPage=30' , 

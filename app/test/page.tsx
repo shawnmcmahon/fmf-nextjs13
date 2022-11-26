@@ -8,7 +8,7 @@ export default function page() {
   return (
   <div>
   <div>
-      {/* <header className="fixed w-full">
+      <header className="fixed w-full">
           <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
               <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                   <a href="#" className="flex items-center">
@@ -51,7 +51,7 @@ export default function page() {
                   </div>
               </div>
           </nav>
-      </header> */}
+      </header>
 
 
       <section className="bg-white dark:bg-gray-900">

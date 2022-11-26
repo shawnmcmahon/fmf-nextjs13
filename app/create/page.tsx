@@ -1,4 +1,4 @@
-import Nav from '../components/nav'
+import Nav from '../components/oldNav'
 import Link from 'next/link'
 
 
