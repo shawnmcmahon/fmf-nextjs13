@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import logo from '../../assets/images/logo1.png'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-800">
           <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
