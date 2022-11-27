@@ -482,7 +482,7 @@ export default function page() {
 
       <footer className="bg-white dark:bg-gray-800">
           <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
                   <div>
                       <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
                       <ul className="text-gray-500 dark:text-gray-400">
@@ -517,7 +517,7 @@ export default function page() {
                           </li>
                       </ul>
                   </div>
-                  <div>
+                  <div className="text-right">
                       <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
                       <ul className="text-gray-500 dark:text-gray-400">
                           <li className="mb-4">
@@ -531,24 +531,7 @@ export default function page() {
                           </li>
                       </ul>
                   </div>
-                  <div>
-                      <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
-                      <ul className="text-gray-500 dark:text-gray-400">
-                          <li className="mb-4">
-                              <a href="#" className=" hover:underline">About</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">Careers</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">Brand Center</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">Blog</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div>
+                  <div className="text-right"> 
                       <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
                       <ul className="text-gray-500 dark:text-gray-400">
                           <li className="mb-4">
@@ -567,7 +550,7 @@ export default function page() {
                   </div>
               </div>
 
-              
+
               <div className="text-center">
                   <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                       <Image src={logo} className="h-6 max-w-max mr-3 sm:h-9" alt="Find Me Fast Logo" width={250} height={250}  />
