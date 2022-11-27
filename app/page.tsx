@@ -479,6 +479,7 @@ export default function page() {
           </div>
       </section>
       {/* <!-- End block --> */}
+      
       <footer className="bg-white dark:bg-gray-800">
           <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
               <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
