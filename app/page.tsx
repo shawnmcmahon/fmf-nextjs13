@@ -294,11 +294,6 @@ export default function page() {
                           <li className="flex items-center space-x-3">
                               {/* <!-- Icon --> */}
                               <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                              <span>Individual configuration</span>
-                          </li>
-                          <li className="flex items-center space-x-3">
-                              {/* <!-- Icon --> */}
-                              <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                               <span>No setup, or hidden fees</span>
                           </li>
                           <li className="flex items-center space-x-3">
@@ -332,11 +327,6 @@ export default function page() {
                           <li className="flex items-center space-x-3">
                               {/* <!-- Icon --> */}
                               <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                              <span>Individual configuration</span>
-                          </li>
-                          <li className="flex items-center space-x-3">
-                              {/* <!-- Icon --> */}
-                              <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                               <span>No setup, or hidden fees</span>
                           </li>
                           <li className="flex items-center space-x-3">
@@ -367,11 +357,6 @@ export default function page() {
                       </div>
                       {/* <!-- List --> */}
                       <ul role="list" className="mb-8 space-y-4 text-left">
-                          <li className="flex items-center space-x-3">
-                              {/* <!-- Icon --> */}
-                              <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                              <span>Individual configuration</span>
-                          </li>
                           <li className="flex items-center space-x-3">
                               {/* <!-- Icon --> */}
                               <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
@@ -482,7 +467,7 @@ export default function page() {
 
       <footer className="bg-white dark:bg-gray-800">
           <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
+              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-3">
                   <div>
                       <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
                       <ul className="text-gray-500 dark:text-gray-400">
@@ -517,7 +502,7 @@ export default function page() {
                           </li>
                       </ul>
                   </div>
-                  <div className="text-right">
+                  <div>
                       <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
                       <ul className="text-gray-500 dark:text-gray-400">
                           <li className="mb-4">
@@ -531,28 +516,11 @@ export default function page() {
                           </li>
                       </ul>
                   </div>
-                  <div className="text-right"> 
-                      <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
-                      <ul className="text-gray-500 dark:text-gray-400">
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">iOS</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">Android</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">Windows</a>
-                          </li>
-                          <li className="mb-4">
-                              <a href="#" className="hover:underline">MacOS</a>
-                          </li>
-                      </ul>
-                  </div>
               </div>
 
 
               <div className="text-center">
-                  <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
+                  <a href="#" className="flex items-center justify-center my-5 text-2xl font-semibold text-gray-900 dark:text-white">
                       <Image src={logo} className="h-6 max-w-max mr-3 sm:h-9" alt="Find Me Fast Logo" width={250} height={250}  />
                       Find Me Fast
                   </a>
