@@ -479,7 +479,7 @@ export default function page() {
           </div>
       </section>
       {/* <!-- End block --> */}
-      
+
       <footer className="bg-white dark:bg-gray-800">
           <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
               <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
@@ -566,6 +566,8 @@ export default function page() {
                       </ul>
                   </div>
               </div>
+
+              
               <div className="text-center">
                   <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                       <Image src={logo} className="h-6 max-w-max mr-3 sm:h-9" alt="Find Me Fast Logo" width={250} height={250}  />
